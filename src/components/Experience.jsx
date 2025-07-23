@@ -20,11 +20,11 @@ const Experience = () => {
                             <div className='flex flex-col justify-center items-center w-full lg:w-[50%] gap-5 lg:gap-10'>
                                 <div className=''>
                                     <h4 className='text-2xl bg-gradient-to-br from-orange-500 to-red-700
-                                    text-transparent bg-clip-text'>
+                                    text-transparent bg-clip-text tracking-wide hyphens-auto'>
                                         {item.org}
                                     </h4>
                                     <h5 className='text-xl bg-gradient-to-br from-orange-500 to-red-700
-                                    text-transparent bg-clip-text'>
+                                    text-transparent bg-clip-text tracking-wide hyphens-auto'>
                                         {item.title}
                                     </h5>
                                     <span className='text-lg text-neutral-400'>{item.timeRange}</span>

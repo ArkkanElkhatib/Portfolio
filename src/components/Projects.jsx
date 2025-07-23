@@ -18,7 +18,7 @@ const Projects = () => {
                         <div className={projectClass} key={index}>
                             <div className='flex flex-col justify-center items-center w-full lg:w-[50%] gap-5 lg:gap-10'>
                                 <h4 className='text-2xl p-3 bg-gradient-to-br from-orange-500 to-red-700
-                                    text-transparent bg-clip-text'>
+                                    text-transparent bg-clip-text tracking-wide hyphens-auto'>
                                     {item.title}
                                 </h4>
                                 <p className='text-sm/7 lg:leading-8 lg:text-lg text-neutral-300 w-full lg:w-[75%]'>

@@ -34,6 +34,8 @@ const Hero = () => {
                     <Linkedin size='2rem' />
                 </a>
             </div>
+            <div className='absolute m-auto mt-[5%] h-[40vh] w-[40vw] bg-orange-700/25 blur-[1000px] rounded z-[-999]'>
+            </div>
         </section>
     )
 }
