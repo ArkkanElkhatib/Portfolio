@@ -9,41 +9,38 @@ const Contact = () => {
             </h3>
             <div className='flex flex-col gap-15 lg:gap-0 lg:flex-row justify-center w-full'>
                 <div className='w-full lg:w-[50%] flex flex-col gap-10 text-base/8'>
-                    <h4 className='text-2xl text-orange-500'>Contact Me Directly</h4>
-                    <p className='text-lg text-neutral-400 m-auto lg:mt-15 max-w-[30ch]'>
-                        Reach me via email (preferred) at &nbsp;
+                    {
+                        //<h4 className='text-2xl text-orange-500'>Contact Me Directly</h4>
+                    }
+                    <p className='text-lg lg:text-xl text-neutral-400 m-auto max-w-[30ch]'>
+                        via email at &nbsp;
                         <br />
                         <i><u>
-                            <a className='text-orange-400/80 text-shadow-sm text-shadow-orange-400/30'
+                            <a className='text-orange-400/80 text-shadow-xs text-shadow-orange-400/40'
                                 href='mailto:arkkanito@gmail.com'>arkkanito@gmail.com</a>
                         </u></i>
                         <br />
                         <br />
-                        Call me via cell at &nbsp;
+                        via cell at &nbsp;
                         <br />
                         <i><u>
-                            <a className='text-orange-400/80 text-shadow-sm text-shadow-orange-400/30'
+                            <a className='text-orange-400/80 text-shadow-xs text-shadow-orange-400/40'
                                 href='tel:arkkanito@gmail.com'>(613) 501-1308</a>
                         </u></i>
                         <br />
                         <br />
-                        Alternatively fill out the form and I'll get back to you as soon as possible
+                        {
+                            //Alternatively fill out the form and I'll get back to you as soon as possible
+                        }
+                        <span className='text-orange-400 text-shadow-xs text-shadow-orange-400/20'>
+                            Looking forward to hearing from you!
+                        </span>
                     </p>
                 </div>
+                { /*
                 <div className='w-full md:w-[70%] lg:w-[50%] m-auto'>
                     <form className='flex flex-col items-center gap-5 border border-neutral-500/70 w-full
                     p-8 px-5 md:p-10 md:px-15 text-sm lg:text-md rounded-lg'
-                        onSubmit={(e) => {
-                            e.preventDefault()
-                            /*
-                            console.log(e.target.name.value)
-                            console.log(e.target.organization.value)
-                            console.log(e.target.email.value)
-                            console.log(e.target.phone.value)
-                            console.log(e.target.message.value)
-                            */
-                            alert('Message Sent. Thank You!')
-                        }}>
                         <input type='text' placeholder='Your Name' name='name'
                             className='border-2 border-orange-600 w-full focus:border-orange-400
                         p-2 px-3 focus:outline focus:outline-orange-400'
@@ -74,6 +71,7 @@ const Contact = () => {
                         </button>
                     </form>
                 </div>
+                */}
             </div>
         </section >
     )

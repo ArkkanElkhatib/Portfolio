@@ -29,7 +29,7 @@ const Experience = () => {
                                     </h5>
                                     <span className='text-lg text-neutral-400'>{item.timeRange}</span>
                                 </div>
-                                <p className='text-sm/7 lg:text-md text-neutral-300 w-full lg:w-[75%]'>
+                                <p className='text-sm/7 lg:leading-8 lg:text-lg text-neutral-300 w-full lg:w-[75%]'>
                                     {item.desc}
                                 </p>
                                 <div className='flex flex-wrap gap-2 text-sm justify-center lg:w-[75%] mt-8'>

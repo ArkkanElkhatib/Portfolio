@@ -1,19 +1,20 @@
 import LunarFantasy from '../assets/LunarFantasy.png'
 import AIUpscale from '../assets/AIUpscale.png'
 import OctopathTeamBuilder from '../assets/OctopathTeamBuilder.png'
+import Freelance from '../assets/Freelance.jpg'
 import AAFC from '../assets/AAFC.jpg'
 import Carleton from '../assets/Carleton.jpg'
 
 export const navItems = [
-    { label: 'Projects', href: '#projects' },
     { label: 'Experience', href: '#experience' },
+    { label: 'Projects', href: '#projects' },
     { label: 'About Me', href: '#about' },
 ]
 
 export const projectItems = [
     {
         title: 'Octopath Team Builder',
-        desc: `Developed a full- stack web application and companion CLI tool to assist players in building optimized teams for Octopath Traveler I & II.The platform enables users to explore character synergies, compare roles, and plan party compositions.Implemented using modern technologies with a Go backend, PostgreSQL database, and React / Next.js frontend.Deployed on Google Cloud with automated CI / CD pipelines and containerized infrastructure via Docker for scalability and ease of maintenance.`,
+        desc: `Developed a full- stack web application and compa ion CLI tool to assist players in building optimized teams for Octopath Traveler I & II.The platform enables users to explore character synergies, compare roles, and plan party compositions.Implemented using modern technologies with a Go backend, PostgreSQL database, and React / Next.js frontend.Deployed on Google Cloud with automated CI / CD pipelines and containerized infrastructure via Docker for scalability and ease of maintenance.`,
         image: OctopathTeamBuilder,
         tech: [
             'React',
@@ -57,6 +58,22 @@ export const projectItems = [
 ]
 
 export const experienceItems = [
+    {
+        title: 'Freelance Developer',
+        org: 'Self-Employed',
+        desc: 'Developed custom software solutions for small businesses and individual clients, focusing on web applications, automation tools, and business workflows. Collaborate directly with clients to gather requirements, design and develop scalable solutions, and provide ongoing maintenance and support. Manage all aspects of the development cycle, from planning and UI/UX to deployment and client training.',
+        timeRange: 'Jan 2025 - Present',
+        image: Freelance,
+        tech: [
+            'Python',
+            'React',
+            'JavaScript',
+            'HTML/CSS',
+            'Docker',
+            'GCP',
+            'Figma',
+        ],
+    },
     {
         title: 'Programmer Analyst - 3-Month Term',
         org: 'Agriculture and Agri-Food Canada',
