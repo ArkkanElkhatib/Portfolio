@@ -1,3 +1,4 @@
+import FFDataRepo from '../assets/FFDataRepo.webp'
 import LunarFantasy from '../assets/LunarFantasy.png'
 import AIUpscale from '../assets/AIUpscale.png'
 import OctopathTeamBuilder from '../assets/OctopathTeamBuilder.png'
@@ -12,6 +13,18 @@ export const navItems = [
 ]
 
 export const projectItems = [
+    {
+        title: 'Final Fantasy Data Repository',
+        desc: `Created a Final Fantasy data repository using Python, JupyterLab, Pandas, and NumPy to scrape, clean, and organize game data across multiple titles. Published the project on Kaggle with clear documentation, showcasing skills in data processing, automation, and independent project development.`,
+        image: FFDataRepo,
+        tech: [
+            'Python',
+            'Pandas',
+            'NumPy',
+            'Jupyter Notebook/JupyterLab',
+            'Kaggle',
+        ],
+    },
     {
         title: 'Octopath Team Builder',
         desc: `Developed a full- stack web application and compa ion CLI tool to assist players in building optimized teams for Octopath Traveler I & II.The platform enables users to explore character synergies, compare roles, and plan party compositions.Implemented using modern technologies with a Go backend, PostgreSQL database, and React / Next.js frontend.Deployed on Google Cloud with automated CI / CD pipelines and containerized infrastructure via Docker for scalability and ease of maintenance.`,

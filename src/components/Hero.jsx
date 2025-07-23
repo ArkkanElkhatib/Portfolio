@@ -1,3 +1,6 @@
+import { Github } from "lucide-react"
+import { Linkedin } from "lucide-react"
+
 const Hero = () => {
     return (
         <section id='hero' className='flex flex-col items-center mt-20'>
@@ -17,6 +20,18 @@ const Hero = () => {
                     text-white p-2 px-3 rounded-md shadow-md shadow-orange-500/25 cursor-pointer
                     hover:from-orange-700 hover:to-red-950 hover:shadow-orange-700/25'>
                     Download my resume to go
+                </a>
+            </div>
+            <div className='mt-8 flex gap-5 text-orange-600 text-lg'>
+                <a href='https://github.com/arkkanelkhatib'
+                    className='border-orange-600 border p-2 px-3 rounded
+                    hover:text-gray-800 hover:bg-orange-600 duration-300'>
+                    <Github size='2rem' />
+                </a>
+                <a href='https://www.linkedin.com/in/arkkan-el/'
+                    className='border-orange-600 border p-2 px-3 rounded
+                    hover:text-gray-800 hover:bg-orange-600 duration-300'>
+                    <Linkedin size='2rem' />
                 </a>
             </div>
         </section>
