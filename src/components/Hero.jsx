@@ -3,7 +3,7 @@ import { Linkedin } from "lucide-react"
 
 const Hero = () => {
     return (
-        <section id='hero' className='flex flex-col items-center mt-20'>
+        <section id='hero' className='flex flex-col items-center mt-15 lg:mt-20'>
             <h1 className='text-4xl sm:text-6xl 
                 lg:text-7xl text-center tracking-wide hyphens-auto'>
                 Arkkan El&#8209;Khatib
@@ -34,7 +34,7 @@ const Hero = () => {
                     <Linkedin size='2rem' />
                 </a>
             </div>
-            <div className='absolute m-auto mt-[5%] h-[40vh] w-[40vw] bg-orange-700/25 blur-[1000px] rounded z-[-999]'>
+            <div className='absolute m-auto mt-[5%] h-[40vh] w-[40vw] bg-orange-700/15 blur-[1000px] rounded z-[-999]'>
             </div>
         </section>
     )
