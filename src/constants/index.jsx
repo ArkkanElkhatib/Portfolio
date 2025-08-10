@@ -72,7 +72,7 @@ export const projectItems = [
 
 export const experienceItems = [
     {
-        title: 'Freelance Developer',
+        title: 'Software Developer & QA Analyst',
         org: 'Self-Employed',
         desc: 'Developed custom software solutions for small businesses and individual clients, focusing on web applications, automation tools, and business workflows. Collaborate directly with clients to gather requirements, design and develop scalable solutions, and provide ongoing maintenance and support. Manage all aspects of the development cycle, from planning and UI/UX to deployment and client training.',
         timeRange: 'Jan 2025 - Present',
@@ -88,7 +88,7 @@ export const experienceItems = [
         ],
     },
     {
-        title: 'Programmer Analyst - 3-Month Term',
+        title: 'Programmer Analyst',
         org: 'Agriculture and Agri-Food Canada',
         desc: `Developed interactive Proof of Concept(PoC) solutions using Microsoft Power Platform, .NET, and JavaScript to showcase technical feasibility, drive stakeholder engagement, and support iterative requirements gathering.Collaborated cross-functionally to align business needs with scalable technical approaches, accelerating decision - making and solution design.`,
         timeRange: 'Aug 2024 - Nov 2024',
@@ -105,7 +105,7 @@ export const experienceItems = [
         ],
     },
     {
-        title: 'Web Developer',
+        title: 'Full-Stack Developer',
         org: 'Agriculture and Agri-Food Canada',
         desc: `Contributed to the development of a migration tool to transition data from a legacy Spring Boot platform to a modern microservices - based Spring Boot architecture.Collaborated with the System Designer to architect and implement a comprehensive suite of integration and load tests via Web API calls, ensuring data integrity, reliability, and performance under high - throughput conditions.`,
         timeRange: 'May 2022 - Aug 2023',
@@ -126,7 +126,7 @@ export const experienceItems = [
         ],
     },
     {
-        title: 'Java Web Developer',
+        title: 'Full-Stack Developer',
         org: 'Agriculture and Agri-Food Canada',
         desc: `Maintained and enhanced legacy web applications through bug fixes, codebase modernization, test suite improvements, and implementation of custom client - requested features.Actively collaborated with clients to gather requirements, streamline their workflows, and deliver tailored solutions—including program scripts, proprietary user guides, and detailed documentation of application functionality.`,
         timeRange: 'May 2021 - Dec 2021',
