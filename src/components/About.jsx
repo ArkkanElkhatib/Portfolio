@@ -1,4 +1,5 @@
 import { ArrowDownToDotIcon } from "lucide-react"
+import { about } from "../constants"
 
 const About = () => {
     return (
@@ -7,14 +8,9 @@ const About = () => {
                 More About Me
                 <ArrowDownToDotIcon size='3.25rem' />
             </h3>
-            <p className='text-md text-neutral-300 text-base/8 max-w-[500px]'>
-                I'm a Software Engineering graduate with a passion for building thoughtful, scalable applications—from web tools that support gaming communities to backend systems that solve real-world challenges. I enjoy working across in both front and backend develoment environments, with experience in technologies like React, Java, Spring Boot, Go, Python, Docker, and cloud platforms such as Google Cloud and Microsoft Azure.
-                <br />
-                <br />
-                My personal projects often blend technical problem-solving with creativity, whether it's designing a lore-driven game database, building AI-powered image tools, or streamlining complex data migrations. I value clean code, maintainable architecture, and always look for opportunities to learn and grow through collaboration and continuous improvement.
-                <br />
-                <br />
-                Outside of coding, I’m an RPG enthusiast with a soft spot for systems-rich titles like Octopath Traveler and the Final Fantasy series. I strive to bring the same analytical mindset and curiosity I apply in games to the work I do in tech.
+            <p className='text-neutral-200 text-lg/9 max-w-[500px] text-left break-keep px-5 pt-3 pb-5
+                shadow-sm shadow-amber-600/35'>
+                {about.summary}
             </p>
         </section>
     )

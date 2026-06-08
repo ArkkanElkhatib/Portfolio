@@ -11,11 +11,11 @@ const Navbar = () => {
     }
 
     return (
-        <nav className='sticky top-0 z-1000 py-3 w-screen
-            backdrop-blur-lg border-b border-neutral-700/80'
+        <nav className='sticky top-0 z-1000 py-3
+            backdrop-blur-lg border-b w-screen border-neutral-700/80'
         >
             <div className='container px-4 mx-auto relative text-sm'>
-                <div className='flex justify-between items-center'>
+                <div className='flex justify-between items-center px-1'>
                     <div className='flex items-center'>
                         <a href='/' className='h-10 w-10 mr-2' onClick={(e) => {
                             e.preventDefault()

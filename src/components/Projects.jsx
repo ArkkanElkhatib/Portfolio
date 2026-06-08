@@ -21,7 +21,7 @@ const Projects = () => {
                                     text-transparent bg-clip-text tracking-wide hyphens-auto w-[95vw]'>
                                     {item.title}
                                 </h4>
-                                <p className='text-sm/7 lg:leading-8 lg:text-xl text-neutral-300 w-[90vw] lg:w-[90%]'>
+                                <p className='text-sm/7 lg:leading-8 lg:text-xl text-neutral-200 w-[90vw] lg:w-[90%] text-left'>
                                     {item.desc}
                                 </p>
                                 <div className='flex flex-wrap gap-2 text-sm justify-center w-[80vw] lg:w-[85%] mt-2'>

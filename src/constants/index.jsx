@@ -43,7 +43,7 @@ export const projectItems = [
     },
     {
         title: 'AI Image Upscaler',
-        desc: `Built a web application that allows users to upload and enhance images using AI-powered upscaling.Designed a microservice architecture with Flask as the backend, integrating both relational (MySQL) and document-based (MongoDB) databases for flexibility in data storage.Used RabbitMQ to queue and manage image processing tasks efficiently.The system is fully containerized with Docker and orchestrated using Kubernetes, ensuring scalability, resilience, and efficient resource management in production environments.`,
+        desc: `Built a web application that allows users to upload and enhance images using AI-powered upscaling. Designed a microservice architecture with Flask as the backend, integrating both relational (MySQL) and document-based (MongoDB) databases for flexibility in data storage.Used RabbitMQ to queue and manage image processing tasks efficiently. The system is fully containerized with Docker and orchestrated using Kubernetes, ensuring scalability, resilience, and efficient resource management in production environments.`,
         image: AIUpscale,
         tech: [
             'Python',
@@ -159,3 +159,7 @@ export const experienceItems = [
         ],
     },
 ]
+
+export const about = {
+    summary: "I'm a Software Engineering graduate with a passion for technology, problem-solving, and continuous learning. Throughout my academic and professional experiences, I've developed strong analytical skills through software development, quality assurance, tutoring, and technical projects. I enjoy breaking down complex problems, finding practical solutions, and creating experiences that are both reliable and user-focused. Whether I'm testing software, analyzing data, or building applications, I take pride in being detail-oriented, adaptable, and committed to delivering high-quality results. I'm currently seeking opportunities where I can continue growing my technical skills while contributing to meaningful projects and helping teams succeed.",
+}

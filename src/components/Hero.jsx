@@ -3,13 +3,13 @@ import { Linkedin } from "lucide-react"
 
 const Hero = () => {
     return (
-        <section id='hero' className='flex flex-col items-center mt-15 lg:mt-20'>
+        <section id='hero' className='flex flex-col items-center mt-15 lg:mt-30'>
             <h1 className='text-4xl sm:text-6xl 
                 lg:text-7xl text-center tracking-wide hyphens-auto'>
                 Arkkan El&#8209;Khatib
             </h1>
             <h2 className='text-2xl sm:text-3xl lg:text-5xl bg-gradient-to-br from-orange-500 to-red-800
-                    text-transparent bg-clip-text'>
+                    text-transparent bg-clip-text mt-2'>
                 Software Developer
             </h2>
             <h4 className='text-lg text-neutral-400/80 mt-6'>

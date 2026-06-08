@@ -32,7 +32,7 @@ const Contact = () => {
                         {
                             //Alternatively fill out the form and I'll get back to you as soon as possible
                         }
-                        <span className='text-orange-400 text-shadow-xs text-shadow-orange-400/20'>
+                        <span className='text-orange-400 text-shadow-xs text-shadow-orange-400/20 pb-10'>
                             Looking forward to hearing from you!
                         </span>
                     </p>
