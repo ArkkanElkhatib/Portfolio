@@ -17,27 +17,27 @@ const Experience = () => {
 
                     return (
                         <div className={experienceClass} key={index}>
-                            <div className='flex flex-col justify-center items-center w-full lg:w-[50%] gap-5 lg:gap-10'>
+                            <div className='flex flex-col justify-center items-center w-full lg:w-[50%] gap-5 lg:gap-10 break-keep'>
                                 <div className=''>
-                                    <h4 className='text-2xl bg-gradient-to-br from-orange-500 to-red-700
-                                    text-transparent bg-clip-text tracking-wide hyphens-auto'>
+                                    <h4 className='text-3xl bg-gradient-to-br from-orange-500 to-red-700
+                                    text-transparent bg-clip-text tracking-wide hyphens-auto w-[95vw]'>
                                         {item.org}
                                     </h4>
                                     <h5 className='text-xl bg-gradient-to-br from-orange-500 to-red-700
-                                    text-transparent bg-clip-text tracking-wide hyphens-auto'>
+                                    text-transparent bg-clip-text tracking-wide hyphens-auto pb-2'>
                                         {item.title}
                                     </h5>
                                     <span className='text-lg text-neutral-400'>{item.timeRange}</span>
                                 </div>
-                                <p className='text-sm/7 lg:leading-8 lg:text-lg text-neutral-300 w-full lg:w-[75%]'>
+                                <p className='text-sm/7 lg:leading-8 lg:text-xl text-neutral-300 w-[90vw] lg:w-[90%]'>
                                     {item.desc}
                                 </p>
-                                <div className='flex flex-wrap gap-2 text-sm justify-center lg:w-[75%] mt-8'>
+                                <div className='flex flex-wrap gap-2 text-sm justify-center w-[80vw] lg:w-[85%] mt-2'>
                                     {item.tech.map((tech, techIndex) => {
                                         return (
                                             <span key={techIndex}
-                                                className='p-px px-2 bg-gradient-to-br 
-                                                rounded-sm shadow-md shadow-amber-500/25 
+                                                className='py-1 p-2 bg-gradient-to-br
+                                                rounded-lg shadow-md shadow-amber-500/25 text-md text-neutral-200
                                                 from-orange-500/60 to-red-500/80'>
                                                 {tech}
                                             </span>
@@ -50,7 +50,7 @@ const Experience = () => {
                     )
                 })}
             </div>
-        </section>
+        </section >
     )
 }
 

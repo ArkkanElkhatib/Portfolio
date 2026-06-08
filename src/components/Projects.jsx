@@ -16,15 +16,15 @@ const Projects = () => {
 
                     return (
                         <div className={projectClass} key={index}>
-                            <div className='flex flex-col justify-center items-center w-full lg:w-[50%] gap-5 lg:gap-10'>
-                                <h4 className='text-2xl p-3 bg-gradient-to-br from-orange-500 to-red-700
-                                    text-transparent bg-clip-text tracking-wide hyphens-auto'>
+                            <div className='flex flex-col justify-center items-center w-full lg:w-[50%] gap-5 lg:gap-10 break-keep'>
+                                <h4 className='text-3xl bg-gradient-to-br from-orange-500 to-red-700
+                                    text-transparent bg-clip-text tracking-wide hyphens-auto w-[95vw]'>
                                     {item.title}
                                 </h4>
-                                <p className='text-sm/7 lg:leading-8 lg:text-lg text-neutral-300 w-full lg:w-[75%]'>
+                                <p className='text-sm/7 lg:leading-8 lg:text-xl text-neutral-300 w-[90vw] lg:w-[90%]'>
                                     {item.desc}
                                 </p>
-                                <div className='flex flex-wrap gap-2 text-sm justify-center lg:w-[75%] mt-8'>
+                                <div className='flex flex-wrap gap-2 text-sm justify-center w-[80vw] lg:w-[85%] mt-2'>
                                     {item.tech.map((tech, techIndex) => {
                                         return (
                                             <span key={techIndex}
